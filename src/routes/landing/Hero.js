@@ -52,11 +52,11 @@ export default function Hero() {
               <h1 className="mt-4 text-5xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                 <span className="block">Insta</span>
                 <span className="block text-[color:var(--primary-font-color)]">
-                  your Instagram growth secret
+                  your Instagram AI AR partner
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Boost your popularity on Instagram with our premium package that
+                Boost your popularity on Instagram with AI tech and AR filters that
                 will skyrocket your profile engagement!
               </p>
               <section className="mt-10 sm:mt-12">
