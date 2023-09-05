@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { loadStripe } from '@stripe/stripe-js';
 
 // Load your Stripe public key here
 const stripePromise = loadStripe('your_stripe_public_key');
