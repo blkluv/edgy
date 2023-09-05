@@ -1,6 +1,7 @@
 import Partners from "../landing/Partners";
 import PricingComparisonTable from "./PricingComparisonTable";
 import PricingFaq from "./PricingFaq";
+import { loadStripe } from '@stripe/stripe-js';
 
 export default function Pricing({ loggedIn }) {
   return (

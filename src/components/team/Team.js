@@ -10,10 +10,9 @@ export default function Team() {
               Meet Our Team
             </h3>
             <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-              It takes some of the same principles the bots used, but is more
-              customized with a human touch. The service today is one of the
-              only of it’s kind and proud to say that there is nothing automated
-              here.
+            We leverage AI technology with a human touch to ensure your account 
+            aligns harmoniously with algorithms, creating a unique and personalized 
+            approach. 
             </p>
           </section>
           <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">

@@ -74,7 +74,7 @@ export default function Testimonials() {
           <section className="hidden lg:block lg:flex-shrink-0">
             <img
               className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              src="https://i.imgur.com/0dtbTuV.jpeg&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               alt=""
               ia-hidden="true"
             />
@@ -95,10 +95,9 @@ export default function Testimonials() {
             <blockquote className="relative">
               <section className="text-2xl leading-9 font-medium text-white">
                 <p>
-                  Once we begin interacting with your target audience, that's
-                  when the fun begins! As a result of our team's strategic
-                  persistence, you will see an increase in traffic to your
-                  Instagram profile and content.
+                AR filters are the most engaging Instagram strategy, and we 
+                maximize Reels with an AR challenge to create the best video 
+                using our custom branded AR filters, rewarding followers.
                 </p>
               </section>
               <section className="mt-8">
