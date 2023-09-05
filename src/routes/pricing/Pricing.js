@@ -1,7 +1,7 @@
-import Partners from "../landing/Partners";
 import PricingComparisonTable from "./PricingComparisonTable";
 import PricingFaq from "./PricingFaq";
-import { loadStripe } from '@stripe/stripe-js';
+import Partners from "../landing/Partners";
+import * as React from 'react';
 
 export default function Pricing({ loggedIn }) {
   return (
@@ -20,6 +20,18 @@ export default function Pricing({ loggedIn }) {
       <PricingComparisonTable loggedIn={loggedIn} />
       <PricingFaq />
       <Partners />
+      <PricingPage />
     </main>
+  );
+}
+
+function PricingPage() {
+  // Paste the stripe-pricing-table snippet in your React component
+  return (
+    <stripe-pricing-table
+      pricing-table-id="{{PRICING_TABLE_ID}}"
+      publishable-key="pk_test_51N5TmzEC5zyE604b3qlKrdd1g56JR9th1aM2iTBDPuJiLmMC2nbwYcSiXahYi6QjNv2MhcM7hu4YZKc9zdILGxo600UGrmr0PQ"
+    >
+    </stripe-pricing-table>
   );
 }
