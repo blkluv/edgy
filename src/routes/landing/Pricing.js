@@ -48,11 +48,10 @@ const Pricing = () => {
 
       {/* Stripe pricing table component */}
       <section className="mt-16 gray-900 pb-12 lg:mt-20 lg:pb-20">
-        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-        <stripe-pricing-table
-          pricing-table-id="prctbl_1Nn41ZEC5zyE604bxb5g6CM7"
-          publishable-key="pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr"
-        ></stripe-pricing-table>
+      <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+      <stripe-pricing-table pricing-table-id="prctbl_1Nn41ZEC5zyE604bxb5g6CM7"
+      publishable-key="pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr">
+      </stripe-pricing-table>
       </section>
 
       <section className="mt-10">
