@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 
 // Load your Stripe public key here
+// eslint-disable-next-line
 const stripePromise = loadStripe('your_stripe_public_key');
 
-const Pricing = ({ loggedIn }) => {
-  const ResetLocation = () => window.scrollTo(0, 0);
-
+const Pricing = () => {
+  // Define the handleSubscribe function
   const handleSubscribe = async () => {
     // Create a Stripe session or subscription here
     const stripe = await stripePromise;
@@ -46,8 +46,13 @@ const Pricing = ({ loggedIn }) => {
         </section>
       </section>
 
+      {/* Stripe pricing table component */}
       <section className="mt-16 gray-900 pb-12 lg:mt-20 lg:pb-20">
-        {/* Your pricing table goes here */}
+        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+        <stripe-pricing-table
+          pricing-table-id="prctbl_1Nn41ZEC5zyE604bxb5g6CM7"
+          publishable-key="pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr"
+        ></stripe-pricing-table>
       </section>
 
       <section className="mt-10">

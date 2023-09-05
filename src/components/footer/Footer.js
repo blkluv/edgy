@@ -5,8 +5,8 @@ import Portfolio from '../../assets/socials/portfolio.png'
 
 const navigation = {
   solutions: [
-    { name: "+1 202 555 0186", href: "tel:+1-202-555-0186" },
-    { name: "+44 1632 960362", href: "tel:+44-1632-960362" },
+    { name: "", href: "" },
+    { name: "+404-889-5545", href: "tel:+404-889-5545" },
     { name: "insta@arvrtise.com", href: "mailto:insta@arvrtise.com" },
   ],
   support: [

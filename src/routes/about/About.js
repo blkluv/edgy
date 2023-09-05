@@ -1,5 +1,5 @@
 
-import Team from "../../components/team/Team";
+
 import Cta from "../../components/cta/Cta";
 import AboutOne from "./AboutOne";
 import AboutTwo from "./AboutTwo";
@@ -12,7 +12,7 @@ export default function About() {
     <AboutOne/>
     <AboutTwo/>
     <AboutThree/>
-    <Team />
+    {/* <Team /> */}
     <Cta />
     </main>
   );
