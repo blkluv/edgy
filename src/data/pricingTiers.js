@@ -1,21 +1,21 @@
 export const pricingTiers = [
     {
-        name: "Standard",
-        href: "/sign-up",
-        priceMonthly: 79,
-        description: "Our Standard plan is perfect for individuals and small businesses looking to kickstart their Instagram growth journey. With authenticity and manual interaction, we ensure that your account receives the attention it deserves.",
+        name: "Starter",
+        href: "https://buy.stripe.com/6oE8xR5hR5zuby8dQQ",
+        priceMonthly: 222,
+        description: "Our Starter Organic Plan Campaign is perfect for individuals and small businesses looking to kickstart their Instagram growth journey. With authenticity and manual interaction, we ensure that your account receives the attention it deserves.",
     },
     {
-        name: "Premium",
-        href: "/sign-up",
-        priceMonthly: 149,
-        description: "Our Premium plan takes your Instagram growth to the next level, catering to influencers, businesses, and brands seeking accelerated growth and increased engagement.",
+        name: "Pro",
+        href: "https://buy.stripe.com/28o7tN4dN9PKcCceUV",
+        priceMonthly: 1111,
+        description: "Our Pro AR Plan Campaignn takes your Instagram growth to the next level, catering to influencers, businesses, and brands seeking accelerated growth and increased engagement.",
     },
     {
-        name: "Business",
-        href: "/sign-up",
-        priceMonthly: 349,
+        name: "Diamond",
+        href: "https://buy.stripe.com/eVa29t39Jge831C3ce",
+        priceMonthly: 3333,
         description:
-            "Our Business plan is designed for established brands and businesses looking to dominate their industry and reach new heights of influence on Instagram.",
+            "Our Diamond AR Premium Plan Campaign is designed for established brands and businesses looking to dominate their industry and reach new heights of influence on Instagram.",
     },
 ];

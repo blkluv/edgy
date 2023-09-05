@@ -25,13 +25,14 @@ export default function PricingComparisonTable({ loggedIn }) {
                 </span>
               </p>
               <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
-              <Link
-                to={loggedIn ? "/profile" : "/sign-up"}
-                onClick={() => window.scrollTo(0, 0)}
-                className="block w-full bg-indigo-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
-              >
-                Buy {tier.name}
-              </Link>
+              <a
+                  href="https://yourlink12345.com"  // Replace with your desired URL
+                  className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  target="_blank"  // This opens the link in a new tab
+                  rel="noopener noreferrer"  // Recommended for security
+                  >
+                   Buy {tier.name}
+                   </a>
             </section>
             {pricingSections.map((section) => (
               <table key={section.name} className="w-full">
@@ -94,13 +95,14 @@ export default function PricingComparisonTable({ loggedIn }) {
             ))}
 
             <section className="border-t border-gray-200 px-4 pt-5">
-              <Link
-                to={loggedIn ? "/profile" : "/sign-up"}
-                onClick={() => window.scrollTo(0, 0)}
-                className="block w-full bg-indigo-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
-              >
-                Buy {tier.name}
-              </Link>
+            <a
+                  href="https://your123456.com"  // Replace with your desired URL
+                  className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  target="_blank"  // This opens the link in a new tab
+                  rel="noopener noreferrer"  // Recommended for security
+                  >
+                   Buy {tier.name}
+                   </a>
             </section>
           </section>
         ))}
@@ -154,13 +156,14 @@ export default function PricingComparisonTable({ loggedIn }) {
                         {tier.description}
                       </p>
                     </section>
-                    <Link
-                      to={loggedIn ? "/profile" : "/sign-up"}
-                      onClick={() => window.scrollTo(0, 0)}
-                      className="block w-full bg-indigo-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
-                    >
-                      Buy {tier.name}
-                    </Link>
+                    <a
+                  href="https://youtubelink123.com"  // Replace with your desired URL
+                  className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  target="_blank"  // This opens the link in a new tab
+                  rel="noopener noreferrer"  // Recommended for security
+                  >
+                   Buy {tier.name}
+                   </a>
                   </section>
                 </td>
               ))}

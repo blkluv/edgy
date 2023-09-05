@@ -28,9 +28,14 @@ export default function Comparison({ loggedIn }) {
                   </span>
                 </p>
                 <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
-                <Link to={loggedIn ? "/profile" : "/sign-up"} className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
-                  Buy {tier.name}
-                </Link>
+                <a
+                  href="https://yourlink1234.com"  // Replace with your desired URL
+                  className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  target="_blank"  // This opens the link in a new tab
+                  rel="noopener noreferrer"  // Recommended for security
+                  >
+                   Buy {tier.name}
+                   </a>
               </section>
 
               {pricingSections.map((section) => (
@@ -99,9 +104,14 @@ export default function Comparison({ loggedIn }) {
                   "border-t border-gray-200 px-4"
                 )}
               >
-                <Link onClick={() => window.scrollTo(0, 0)} to={loggedIn ? "/profile" : "/sign-up"} className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
-                  Buy {tier.name}
-                </Link>
+                <a
+              href="https://your-external-link.com"  // Replace with your desired URL
+              className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+              target="_blank"  // This opens the link in a new tab
+              rel="noopener noreferrer"  // Recommended for security
+               >
+               Subscribe {tier.name}
+               </a>
               </section>
             </section>
           ))}
@@ -151,9 +161,14 @@ export default function Comparison({ loggedIn }) {
                       <p className="mt-4 mb-16 text-sm text-gray-500">
                         {tier.description}
                       </p>
-                      <Link onClick={() => window.scrollTo(0, 0)} to={loggedIn ? "/profile" : "/sign-up"} className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
-                        Buy {tier.name}
-                      </Link>
+                      <a
+                  href="https://yourlink123.com"  // Replace with your desired URL
+                  className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  target="_blank"  // This opens the link in a new tab
+                  rel="noopener noreferrer"  // Recommended for security
+                  >
+                   Buy {tier.name}
+                   </a>
                     </section>
                   </td>
                 ))}
@@ -219,9 +234,14 @@ export default function Comparison({ loggedIn }) {
                 </th>
                 {pricingTiers.map((tier) => (
                   <td key={tier.name} className="pt-5 px-6">
-                    <Link to={loggedIn ? "/profile" : "/sign-up"} className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">
-                      Buy {tier.name}
-                    </Link>
+                  <a
+                  href="https://yourlink1.com"  // Replace with your desired URL
+                  className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  target="_blank"  // This opens the link in a new tab
+                  rel="noopener noreferrer"  // Recommended for security
+                  >
+                   Buy {tier.name}
+                   </a>
                   </td>
                 ))}
               </tr>

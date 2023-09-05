@@ -4,39 +4,39 @@ export const pricingSections = [
         features: [
             {
                 name: "Organic Follower Growth: Gain real, engaged followers through genuine interactions and personalized strategies, helping you build a loyal community.",
-                tiers: { Standard: true, Premium: true, Business: true },
+                tiers: { Organic: true, Pro: true, Diamond: true },
             },
             {
-                name: "Content Optimization: Receive tailored content recommendations to enhance your feed's visual appeal and captivate your target audience.",
-                tiers: { Standard: true, Premium: true, Business: true },
+                name: "AI Content Optimization: Receive tailored content recommendations to enhance your feed's visual appeal and captivate your target audience.",
+                tiers: { Organic: true, Pro: true, Diamond: true },
             },
             {
-                name: "Hashtag Research: Unlock the potential of strategic hashtags to boost your posts' discoverability and increase your reach.",
-                tiers: { Standard: true, Premium: true, Business: true },
+                name: "AI Hashtag Research: Unlock the potential of strategic hashtags to boost your posts' discoverability and increase your reach.",
+                tiers: { Organic: true, Pro: true, Diamond: true },
             },
             {
                 name: "Community Engagement: Our team proactively engages with your followers, responding to comments, and fostering genuine connections on your behalf.",
-                tiers: { Standard: true, Premium: true, Business: true },
+                tiers: { Organic: true, Pro: true, Diamond: true },
             },
             {
                 name: "Monthly Progress Report: Stay updated on your Instagram growth journey with a comprehensive monthly progress report, showcasing key metrics and insights.",
-                tiers: { Premium: true, Business: true },
+                tiers: { Pro: true, Diamond: true },
             },
             {
-                name: "Customized Strategy: Receive a tailor-made growth strategy designed specifically for your niche and target audience.",
-                tiers: { Premium: true, Business: true },
+                name: "AI Customized Strategy: Receive a tailor-made growth strategy powered by AI specifically for your niche and target audience.",
+                tiers: { Pro: true, Diamond: true },
             },
             {
-                name: "Influencer Outreach: Tap into our network of influencers for collaborations and shout-outs to gain exposure to a broader audience.",
-                tiers: { Premium: true, Business: true },
+                name: "AR Filter: We create your monthly branded AR Filter that your followers can use to create Reels, promoting your brand in exchange for a chance to win an Arvrtise Idol challenge.",
+                tiers: { Pro: true, Diamond: true },
             },
             {
                 name: "Story Management: Maximize the potential of Instagram Stories with engaging content and highlights to captivate your followers.",
-                tiers: { Premium: true, Business: true },
+                tiers: { Pro: true, Diamond: true },
             },
             {
                 name: "Competitor Analysis: Gain insights into your competitors' performance to identify opportunities and stay ahead of the curve.",
-                tiers: { Premium: true, Business: true },
+                tiers: { Pro: true, Diamond: true },
             }
         ],
     },
@@ -66,26 +66,26 @@ export const pricingSections = [
         features: [
             {
                 name: "24/7 Email Support: Reach out to us anytime, and our dedicated support team will respond promptly to address your queries and concerns.",
-                tiers: { Standard: true, Premium: true, Business: true },
+                tiers: { Oragnic: true, Pro: true, Diamond: true },
             },
             {
                 name: "Priority Queue: As a Standard plan member, your inquiries receive priority handling for faster resolutions.",
-                tiers: { Premium: true, Business: true }
+                tiers: { Pro: true, Diamond: true }
             },
             {
                 name: "Priority Growth Campaigns: Participate in priority growth campaigns and strategic collaborations with other businesses to accelerate your growth.",
-                tiers: { Premium: true, Business: true },
+                tiers: { Pro: true, Diamond: true },
             },
             {
-                name: "Advanced Content Strategy: Unlock a comprehensive content strategy tailored to your brand's voice and objectives, ensuring consistent and impactful messaging.",
-                tiers: { Business: true },
+                name: "AI Content Strategy: Unlock a comprehensive content strategy tailored to your brand's voice and objectives, ensuring consistent and impactful messaging.",
+                tiers: { Diamond: true },
             },
             {
-                name: "Influencer Management: Utilize our expertise in influencer management to build strong partnerships and maximize your brand's exposure.",
-                tiers: { Business: true },
+                name: "AI Post Optimization Suggestions: Receive information about your posts, such as the best time of day and the type of content to post.",
+                tiers: { Diamond: true },
             },
             {
-                name: "Exclusive Early Access: Get exclusive early access to new features and updates before they're rolled out to other plans.",
+                name: "AR Challenge: We create an AR reel challenge to maxiumize Instagram engagement with followers having the ability to use your filter in their Reel.",
                 tiers: { Business: true },
             },
         ],
