@@ -7,7 +7,7 @@ const navigation = {
   solutions: [
     { name: "+1 202 555 0186", href: "tel:+1-202-555-0186" },
     { name: "+44 1632 960362", href: "tel:+44-1632-960362" },
-    { name: "support@edgy.com", href: "mailto:support@edgy.com" },
+    { name: "insta@arvrtise.com", href: "mailto:insta@arvrtise.com" },
   ],
   support: [
     { name: "Pricing", href: "/pricing" },
@@ -149,7 +149,7 @@ export default function Footer() {
             ))}
           </section>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2023 Edgy, Inc. All rights reserved.
+            &copy; 2023 Insta, Inc. All rights reserved.
           </p>
         </section>
       </section>

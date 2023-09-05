@@ -112,10 +112,10 @@ export default function Testimonials() {
                   </section>
                   <section className="ml-4 lg:ml-0">
                     <section className="text-base font-medium text-white">
-                      Catherine Black
+                      Hahz Terry
                     </section>
                     <section className="text-base font-medium text-[color:var(--primary-font-color)]">
-                      CEO, Edgy
+                      CEO, Insta
                     </section>
                   </section>
                 </section>
