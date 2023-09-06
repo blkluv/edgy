@@ -51,7 +51,7 @@ export default function Navigation({ loggedIn, setLoggedIn, setTriggeredLogout }
               <Link onClick={ResetLocation} to="https://buy.stripe.com/6oE8xR5hR5zuby8dQQ" className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75">
                 Start trial
               </Link>
-              <Link onClick={ResetLocation} to="/sign-up" className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">
+              <Link onClick={ResetLocation} to="https://billing.stripe.com/p/login/eVaaH68crfwxf3WbII" className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">
                 Billing
               </Link>
             </section>}
