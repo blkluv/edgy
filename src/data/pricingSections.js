@@ -4,19 +4,19 @@ export const pricingSections = [
         features: [
             {
                 name: "Organic Follower Growth: Gain real, engaged followers through genuine interactions and personalized strategies, helping you build a loyal community.",
-                tiers: { Organic: true, Pro: true, Diamond: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
                 name: "AI Content Optimization: Receive tailored content recommendations to enhance your feed's visual appeal and captivate your target audience.",
-                tiers: { Organic: true, Pro: true, Diamond: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
                 name: "AI Hashtag Research: Unlock the potential of strategic hashtags to boost your posts' discoverability and increase your reach.",
-                tiers: { Organic: true, Pro: true, Diamond: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
                 name: "Community Engagement: Our team proactively engages with your followers, responding to comments, and fostering genuine connections on your behalf.",
-                tiers: { Organic: true, Pro: true, Diamond: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
                 name: "Monthly Progress Report: Stay updated on your Instagram growth journey with a comprehensive monthly progress report, showcasing key metrics and insights.",
@@ -45,19 +45,19 @@ export const pricingSections = [
         features: [
             {
                 name: "Follower Growth Analysis: Track your follower count's organic growth over time to understand the impact of our strategies.",
-                tiers: { Standard: true, Premium: true, Business: true },
+                tiers: { Starter: true, Premium: true, Business: true },
             },
             {
                 name: "Engagement Metrics: Get detailed statistics on likes, comments, and interactions to gauge your content's effectiveness..",
-                tiers: { Standard: true, Premium: true, Business: true },
+                tiers: { Starter: true, Premium: true, Business: true },
             },
             {
                 name: "Audience Insights: Understand your audience demographics, interests, and behavior to fine-tune your content strategy.",
-                tiers: { Premium: true, Business: true }
+                tiers: { Starter: true, Business: true }
             },
             {
                 name: "Post Optimization Suggestions: Receive recommendations for optimizing your post timings and content to maximize engagement.",
-                tiers: { Business: true }
+                tiers: { Starter: true }
             }
         ],
     },
@@ -66,10 +66,10 @@ export const pricingSections = [
         features: [
             {
                 name: "24/7 Email Support: Reach out to us anytime, and our dedicated support team will respond promptly to address your queries and concerns.",
-                tiers: { Oragnic: true, Pro: true, Diamond: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
-                name: "Priority Queue: As a Standard plan member, your inquiries receive priority handling for faster resolutions.",
+                name: "Priority Queue: As a Pro plan member, your inquiries receive priority handling for faster resolutions.",
                 tiers: { Pro: true, Diamond: true }
             },
             {
@@ -86,7 +86,7 @@ export const pricingSections = [
             },
             {
                 name: "AR Challenge: We create an AR reel challenge to maxiumize Instagram engagement with followers having the ability to use your filter in their Reel.",
-                tiers: { Business: true },
+                tiers: { Diamond: true },
             },
         ],
     },
