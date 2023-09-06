@@ -69,12 +69,12 @@ export default function AboutOne() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative">
-                    Welcome to a world of limitless connections and boundless possibilities. At Insta, we're not just a social media company; we're the architects of your digital success. Join us today and unleash the true power of your online presence
+                  Insta is for the culture of Instagram users; no one should be trying to circumvent AI algorithms without utilizing Arvrtise Insta AI technology.
                   </p>
                 </section>
                 <section className="mt-4">
                   <p className="text-base font-semibold text-indigo-200">
-                    Hahz Terry, CEO at Insta
+                    Dr.Candy Terry, Co-founder at Insta
                   </p>
                 </section>
               </blockquote>
@@ -86,18 +86,15 @@ export default function AboutOne() {
       <section className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
         <section className="pt-12 sm:pt-16 lg:pt-20">
           <h2 className="text-3xl text-white font-extrabold tracking-tight sm:text-4xl">
-            On a mission to empower teams
+            On a mission to empower creators
           </h2>
           <section className="mt-6 text-gray-500 space-y-6">
             <p className="text-base leading-7">
-              Welcome to Insta, your one-stop solution for Instagram growth services! We are a team of passionate and dedicated professionals who understand the importance of a strong online presence and the impact it can have on individuals and businesses alike. Our mission is to help you unlock the true potential of your Instagram account, enabling you to reach new heights of success and influence in the digital world.
-            </p>
+              Discover Insta, your all-inclusive destination for Instagram growth services! We're a team of enthusiastic and committed experts who recognize the significance of a robust online presence and its transformative effects on individuals and businesses. Our goal is to empower you to harness the full potential of your Instagram profile, propelling you towards greater achievements and influence in the digital realm.            </p>
             <p className="text-base leading-7">
-              At Insta, we firmly believe that Instagram is more than just a social media platform; it has become a powerful tool for personal branding, business growth, and community engagement. As the world becomes increasingly digital, having a robust Instagram presence is crucial for individuals looking to build a personal brand and businesses seeking to expand their reach and connect with their target audience.
-            </p>
+              Here at Insta, we hold a steadfast conviction that Instagram transcends its role as a mere social media platform. It has evolved into a potent instrument for personal branding, fostering business growth, and facilitating community interaction. In our progressively digitized world, cultivating a strong Instagram presence stands as a pivotal element. It is essential for individuals aspiring to craft a personal brand and for enterprises aiming to broaden their outreach and establish meaningful connections with their intended audience.            </p>
             <p className="text-base leading-7">
-              Our services are designed to cater to the unique needs of individuals and businesses at any stage of their Instagram journey. Whether you're a budding influencer, a start-up, or an established brand, we have tailor-made solutions to help you achieve your goals.
-            </p>
+              Our offerings are meticulously crafted to address the distinct requirements of individuals and businesses, regardless of where they currently stand on their Instagram voyage. Whether you're an up-and-coming influencer, a burgeoning startup, or a well-established brand, our customized solutions are poised to assist you in realizing your objectives.            </p>
           </section>
         </section>
         {/* Stats section */}

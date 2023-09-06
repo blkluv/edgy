@@ -6,7 +6,7 @@ const links = [
   { name: "Pricing", href: "/pricing" },
   { name: "Blog", href: "/blog" },
   { name: "FAQ", href: "/faq" },
-  { name: "Contact", href: "/contact" },
+  { name: "Contact", href: "https://discord.gg/nfAmqTGNAU" },
 ];
 
 export default function Navigation({ loggedIn, setLoggedIn, setTriggeredLogout }) {

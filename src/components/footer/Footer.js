@@ -12,7 +12,7 @@ const navigation = {
   support: [
     { name: "Pricing", href: "/pricing" },
     { name: "FAQ", href: "/faq" },
-    { name: "Contact", href: "/contact" },
+    { name: "Contact", href: "https://discord.gg/nfAmqTGNAU" },
   ],
   company: [
     { name: "About", href: "/about" },

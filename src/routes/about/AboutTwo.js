@@ -11,7 +11,7 @@ export default function AboutTwo() {
               Become an influencer
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-              Get Instagram Followers Using Our Powerful Growth Strategies
+              Get Instagram Followers Using The Latest Technology
             </p>
           </section>
         </section>
@@ -86,14 +86,12 @@ export default function AboutTwo() {
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
               <section className="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
                 <p>
-                  Are you ready to take your Instagram game to the next level? Are you eager to see your follower count soar and your engagement skyrocket? Look no further! In this article, we unveil the secrets to turbocharging your Instagram growth. Say goodbye to the struggle of gaining followers and embrace our powerful growth strategies that will set you on a path to social media stardom.
-                </p>
+                 Are you prepared to elevate your Instagram presence? Do you aspire to witness a remarkable surge in your follower numbers and engagement rates? Your search ends here! Within this post, we disclose the strategies for supercharging your Instagram expansion. Bid farewell to the challenges of acquiring followers and embrace our potent growth tactics that will guide you toward social media stardom.                </p>
                 <p>
                   Before diving into our growth strategies, we shed light on the enigmatic Instagram algorithm. Delve into the inner workings of this algorithmic beast and learn how to work with it, not against it. By understanding the algorithm's preferences, you can position yourself for maximum exposure and enhanced visibility.
                 </p>
                 <p>
-                  Content is king, and in the realm of Instagram, quality reigns supreme. We show you how to create visually stunning and engaging content that captivates your audience. From eye-catching images to compelling captions, we reveal the essential elements that spark interest and drive followers to hit that "Follow" button.
-                </p>
+                In the world of Instagram leads, content holds the crown, with quality reigning as the ultimate ruler. We guide you in crafting visually remarkable and captivating content that enthralls your potential audience. From captivating visuals to compelling captions, we unveil the vital components that ignite curiosity and inspire potential followers to tap that 'Follow' icon.                </p>
               </section>
               <section className="mt-6 prose prose-indigo prose-lg text-gray-500 lg:mt-0">
                 <p>
@@ -111,10 +109,10 @@ export default function AboutTwo() {
             <section className="mt-8 inline-flex rounded-md shadow">
               <Link
                 onClick={ResetLocation}
-                to="/contact"
+                to="https://instagram.com/arvrtise"
                 className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
-                Contact us
+                DM us
               </Link>
             </section>
           </section>

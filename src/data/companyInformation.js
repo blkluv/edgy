@@ -1,8 +1,8 @@
 const companyInformation = [
-    { label: "Founded", value: "2022" },
-    { label: "Employees", value: "200" },
+    { label: "Founded", value: "2023" },
+    { label: "AR Filter Views", value: "1M+" },
     { label: "Beta Users", value: "521" },
-    { label: "Raised", value: "$25M" },
+    { label: "Raised", value: "$10M" },
 ];
 
 export default companyInformation;
