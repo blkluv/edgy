@@ -1,6 +1,7 @@
+import React from 'react';
 import PricingFaq from "./PricingFaq";
 import Partners from "../landing/Partners";
-import * as React from 'react';
+import { Route, Routes } from "react-router-dom"; // Import 'Routes'
 
 export default function Pricing({ loggedIn }) {
   return (
@@ -16,7 +17,9 @@ export default function Pricing({ loggedIn }) {
           Instagram Growth Plans offer a clear pathway to success, whether you are an aspiring influencer, a startup entrepreneur, or an established brand looking to expand your reach. Choose from our three meticulously designed plans - Starter, Pro, and Diamond - and embark on a transformational journey to elevate your Instagram growth.
         </p>
       </section>
-      <PricingPage />
+      <Routes> {/* Use Routes instead of Switch */}
+        <Route path="/pricing" element={<PricingPage />} />
+      </Routes>
       <PricingFaq />
       <Partners />
     </main>
