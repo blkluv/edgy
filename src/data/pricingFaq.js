@@ -1,9 +1,9 @@
 const pricingFaq = [
     {
         id: 1,
-        question: "How Does Edgy work?",
+        question: "How does Insta work?",
         answer:
-            "At Edgy, we work diligently to provide you with authentic and organic Instagram growth. Our team of dedicated social media experts manually engages with your target audience, sparking genuine interactions and connections. We use data-driven strategies to optimize your content, hashtags, and posting schedule to ensure maximum visibility and growth. With Edgy, you can expect real, engaged followers who align with your brand's vision.",
+            "At Insta, we work diligently to provide you with authentic and organic Instagram growth. Our team of dedicated social media experts manually engages with your target audience, sparking genuine interactions and connections. We use data-driven strategies to optimize your content, hashtags, and posting schedule to ensure maximum visibility and growth. With Edgy, you can expect real, engaged followers who align with your brand's vision.",
     },
     {
         id: 2,
@@ -25,15 +25,15 @@ const pricingFaq = [
     },
     {
         id: 5,
-        question: "Do you work manually?",
+        question: "What is an Arvrtise Idol Challenge?",
         answer:
-            "Absolutely! At Edgy, we take pride in our commitment to authenticity and manual growth. Unlike services that rely on bots or automation, we believe that real people engaging with your audience creates more meaningful connections. Our team manually interacts with potential followers, ensuring genuine engagement and sustainable growth for your account.",
+            "Arvrtise Idol Challenge is a Instagram challege for your followers to create the #1 voted Reel using your branded Arvrtise AR filter.",
     },
     {
         id: 6,
         question: "What do I need to get started?",
         answer:
-            "Getting started with Edgy is simple. All you need is an active Instagram account and a clear vision of your growth goals. Once you choose one of our Instagram Growth Plans (Starter, Premium, or Business), our team will schedule a consultation to understand your objectives and tailor our strategies accordingly. From there, you can sit back and watch your Instagram presence flourish with our expert guidance and support.",
+            "Getting started with Insta is simple. All you need is an active Instagram account and a clear vision of your growth goals. Once you choose one of our Instagram Growth Plans (Starter, Pro, or Diamond), our team will schedule a consultation to understand your objectives and tailor our strategies accordingly. From there, you can sit back and watch your Instagram presence flourish with our expert guidance and support.",
     },
 ];
 

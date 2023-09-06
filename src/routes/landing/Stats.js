@@ -29,11 +29,7 @@ export default function Stats() {
             TRUSTED BY THOUSANDS OF BUSINESS OWNERS
           </p>
           <p className="mt-5 text-lg text-gray-300">
-            Whereas almost every other provider in the market is using bots,
-            scripts, or automation software to grow your account and offer
-            ridiculous growth, our team is 100% compliant with Instagram’s terms
-            of service. We’re an agency that believes in doing things the right
-            way. Don’t risk your account with those other shady providers.
+          Insta is the only Instagram marketing agency using AI and AR technology in a bundled subscription package.
           </p>
           <section className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {companyStats.map((item) => (

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Cta({ loggedIn }) {
   const ResetLocation = () => window.scrollTo(0, 0);
-  const instagramLink = "https://instagram.com/arvrtise"; // Replace with your Instagram link
+  const getStartedLink = loggedIn ? "/profile" : "/sign-up";
 
   return (
     <article className="bg-gray-900">
@@ -12,14 +12,13 @@ export default function Cta({ loggedIn }) {
           <span className="block text-white">Ready to dive in?</span>
           <span className="block text-[color:var(--primary-font-color)]">
             Start your free trial today by sending us a DM on{" "}
-            <a
-              href={instagramLink}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to={getStartedLink}
+              onClick={ResetLocation}
               className="text-indigo-600 hover:underline"
             >
-              Instagram
-            </a>
+              Get Started
+            </Link>
             .
           </span>
         </h2>
@@ -27,7 +26,7 @@ export default function Cta({ loggedIn }) {
           <section className="inline-flex rounded-md shadow">
             <Link
               onClick={ResetLocation}
-              to={loggedIn ? "/profile" : "/sign-up"}
+              to={getStartedLink}
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
             >
               Get started

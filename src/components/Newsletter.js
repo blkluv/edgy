@@ -17,8 +17,14 @@ export default function Newsletter() {
           </p>
         </section>
         <section className="mt-8 lg:mt-0 lg:ml-8">
-          <iframe src="https://arvrtise.substack.com/embed" width="480" height="320" style={{ border: '1px solid #EEE', background: 'white' }} frameBorder="0" scrolling="no"></iframe>
-          <p className="text-sm text-gray-300 mt-11">
+        <iframe
+           src="https://arvrtise.substack.com/embed"
+           width="100%"
+           height="auto"
+            style={{ border: '1px solid #EEE', background: 'white' }}
+            frameBorder="0"
+            scrolling="no"
+            ></iframe>          <p className="text-sm text-gray-300 mt-11">
             We care about the protection of your data. Read our{' '}
             <Link to="/privacy" className="text-white font-medium underline">
               Privacy Policy.

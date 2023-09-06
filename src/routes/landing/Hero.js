@@ -33,8 +33,7 @@ export default function Hero() {
                   Start free trial
                 </a>
                 <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                  Start your free 14-day trial, no credit card necessary. By providing
-                  your email, you agree to our{' '}
+                  Start your free 14-day trial, no credit card necessary. Agree to our{' '}
                   <Link
                     to="/terms"
                     className="font-medium text-white"

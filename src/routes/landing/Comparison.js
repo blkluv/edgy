@@ -29,7 +29,7 @@ export default function Comparison({ loggedIn }) {
                 </p>
                 <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
                 <a
-                  href="#pricingTiersContainer" // Updated href  // Replace with your desired URL
+                  href="/pricing" // Updated href  // Replace with your desired URL
                   className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                   target="_blank"  // This opens the link in a new tab
                   rel="noopener noreferrer"  // Recommended for security
@@ -105,7 +105,7 @@ export default function Comparison({ loggedIn }) {
                 )}
               >
                 <a
-              href="#pricingTiersContainer" // Updated href  // Replace with your desired URL
+              href="/pricing" // Updated href  // Replace with your desired URL
               className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
               target="_blank"  // This opens the link in a new tab
               rel="noopener noreferrer"  // Recommended for security
@@ -162,7 +162,7 @@ export default function Comparison({ loggedIn }) {
                         {tier.description}
                       </p>
                       <a
-                  href="#pricingTiersContainer" // Updated href  // Replace with your desired URL
+                  href="/pricing" // Updated href  // Replace with your desired URL
                   className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                   target="_blank"  // This opens the link in a new tab
                   rel="noopener noreferrer"  // Recommended for security
@@ -235,7 +235,7 @@ export default function Comparison({ loggedIn }) {
                 {pricingTiers.map((tier) => (
                   <td key={tier.name} className="pt-5 px-6">
                   <a
-                  href="#pricingTiersContainer" // Updated href  // Replace with your desired URL
+                  href="/pricing" // Updated href  // Replace with your desired URL
                   className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                   target="_blank"  // This opens the link in a new tab
                   rel="noopener noreferrer"  // Recommended for security

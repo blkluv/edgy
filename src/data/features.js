@@ -9,7 +9,7 @@ const features = [
     {
         name: 'Flexible plans',
         description:
-            'Three kinds of plans which you can test and change anytime. You can also have special plans crafted for you',
+            'Three kinds of plans which you can test and change anytime by clicking on the billing button. You can also have special plans crafted for you',
         icon: PlanIcon,
     },
     {
@@ -25,9 +25,9 @@ const features = [
         icon: ContentIcon,
     },
     {
-        name: 'Organic followers',
+        name: 'AR Filters',
         description:
-            'Receive real followers on your Instagram profile instantly within minutes. The real people who are ready to engage',
+            'Pro and Diamond subscribers receive a branded AR filter that their followers can use to create an Advertise Idol challenge.',
         icon: FollowerIcon,
     },
     {

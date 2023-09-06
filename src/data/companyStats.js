@@ -1,9 +1,9 @@
 const companyStats = [
     {
         id: 1,
-        stat: '5K+',
-        title: 'Happy Customers',
-        desc: 'and they are becoming more happy',
+        stat: '1M+',
+        title: 'AR filter views',
+        desc: 'with Reel follower engagements.',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const companyStats = [
         id: 3,
         stat: '+150%',
         title: 'Increased Engagement',
-        desc: 'your content is blowing',
+        desc: 'with AR filters',
     },
     {
         id: 4,
