@@ -1,3 +1,4 @@
+import React from 'react'; // Add this line
 import EdgyIcon from "../../assets/images/edgy-icon.png";
 import { Link, useNavigate } from "react-router-dom";
 
