@@ -1,22 +1,26 @@
 import EdgyIcon from "../../assets/images/edgy-icon.png";
 import { Link, useNavigate } from "react-router-dom";
 
+const externalLink = { name: "PPC", href: "https://arvrtise.com" };
+
 const links = [
   { name: "About", href: "/about" },
   { name: "Pricing", href: "/pricing" },
   { name: "Blog", href: "/blog" },
   { name: "FAQ", href: "/faq" },
-  { name: "PPC", href: "https://arvrtise.com" },
+  externalLink, // External link
 ];
 
 export default function Navigation({ loggedIn, setLoggedIn, setTriggeredLogout }) {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const ResetLocation = () => window.scrollTo(0, 0);
+
   const logOutUser = () => {
     setTriggeredLogout(true);
     setLoggedIn(false);
-    navigate('/')
-  }
+    navigate('/');
+  };
+
   return (
     <header className="bg-gray-900">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
@@ -28,44 +32,92 @@ export default function Navigation({ loggedIn, setLoggedIn, setTriggeredLogout }
             </Link>
             <section className="hidden ml-10 space-x-8 lg:block">
               {links.map((link) => (
+                <React.Fragment key={link.name}>
+                  {link.href.startsWith("http") ? (
+                    // External link
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-base font-medium text-white hover:text-indigo-50"
+                    >
+                      {link.name}
+                    </a>
+                  ) : (
+                    // Internal link
+                    <Link
+                      onClick={ResetLocation}
+                      to={link.href}
+                      className="text-base font-medium text-white hover:text-indigo-50"
+                    >
+                      {link.name}
+                    </Link>
+                  )}
+                </React.Fragment>
+              ))}
+            </section>
+          </section>
+          {loggedIn ? (
+            <section className="ml-10 space-x-4">
+              <button
+                onClick={() => {
+                  logOutUser();
+                }}
+                className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
+              >
+                Sign out
+              </button>
+              <Link
+                onClick={ResetLocation}
+                to="/profile"
+                className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
+              >
+                Profile
+              </Link>
+            </section>
+          ) : (
+            <section className="ml-10 space-x-4">
+              <Link
+                onClick={ResetLocation}
+                to="https://buy.stripe.com/6oE8xR5hR5zuby8dQQ"
+                className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
+              >
+                Start Trial
+              </Link>
+              <Link
+                onClick={ResetLocation}
+                to="https://billing.stripe.com/p/login/eVaaH68crfwxf3WbII"
+                className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
+              >
+                Billing
+              </Link>
+            </section>
+          )}
+        </section>
+        <section className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
+          {links.map((link) => (
+            <React.Fragment key={link.name}>
+              {link.href.startsWith("http") ? (
+                // External link
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base font-medium text-white hover:text-indigo-50"
+                >
+                  {link.name}
+                </a>
+              ) : (
+                // Internal link
                 <Link
                   onClick={ResetLocation}
-                  key={link.name}
                   to={link.href}
                   className="text-base font-medium text-white hover:text-indigo-50"
                 >
                   {link.name}
                 </Link>
-              ))}
-            </section>
-          </section>
-          {loggedIn ? <section className="ml-10 space-x-4">
-            <button onClick={() => { logOutUser() }} className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75">
-              Sign out
-            </button>
-            <Link onClick={ResetLocation} to="/profile" className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">
-              Profile
-            </Link>
-          </section> :
-            <section className="ml-10 space-x-4">
-              <Link onClick={ResetLocation} to="https://buy.stripe.com/6oE8xR5hR5zuby8dQQ" className="inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75">
-                Start Trial
-              </Link>
-              <Link onClick={ResetLocation} to="https://billing.stripe.com/p/login/eVaaH68crfwxf3WbII" className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">
-                Billing
-              </Link>
-            </section>}
-        </section>
-        <section className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-          {links.map((link) => (
-            <Link
-              onClick={ResetLocation}
-              key={link.name}
-              to={link.href}
-              className="text-base font-medium text-white hover:text-indigo-50"
-            >
-              {link.name}
-            </Link>
+              )}
+            </React.Fragment>
           ))}
         </section>
       </nav>
