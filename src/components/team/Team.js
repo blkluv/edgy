@@ -1,5 +1,6 @@
 import team from '../../data/team';
 
+/* eslint-disable */
 export default function Team() {
   return (
     <article className="bg-gray-900">

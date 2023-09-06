@@ -48,7 +48,7 @@ export default function AboutOne() {
           <section className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
             <img
               className="absolute inset-0 h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              src="https://i.imgur.com/0dtbTuV.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               alt=""
               aria-hidden="true"
             />

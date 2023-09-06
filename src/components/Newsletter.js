@@ -10,7 +10,7 @@ export default function Newsletter() {
             className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl"
             id="newsletter-headline"
           >
-            Sign up for our newsletter
+            Sign up for our Arvrtise newsletter
           </h2>
           <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
             Subscribe to our newsletter to receive the latest updates, exclusive offers, and valuable insights. Join our community of forward-thinkers and never miss out on exciting news again. Simply enter your email below and be part of the conversation!
@@ -24,7 +24,9 @@ export default function Newsletter() {
             style={{ border: '1px solid #EEE', background: 'white' }}
             frameBorder="0"
             scrolling="no"
-            ></iframe>          <p className="text-sm text-gray-300 mt-11">
+            ></iframe> 
+        
+           <p className="text-sm text-gray-300 mt-11">
             We care about the protection of your data. Read our{' '}
             <Link to="/privacy" className="text-white font-medium underline">
               Privacy Policy.

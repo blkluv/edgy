@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Linkedin from '../../assets/socials/linkedin-pink.svg'
-import Github from '../../assets/socials/github-pink.svg'
-import Portfolio from '../../assets/socials/portfolio.png'
+
 
 const navigation = {
   solutions: [
@@ -26,18 +25,8 @@ const navigation = {
   ],
   social: [
     {
-      name: "Github",
-      href: "https://github.com/catherineisonline/edgy",
-      icon: Github
-    },
-    {
-      name: "Portfolio",
-      href: "https://ekaterine-mitagvaria.vercel.app/",
-      icon: Portfolio
-    },
-    {
       name: "Linkedin",
-      href: "https://www.linkedin.com/in/catherinemitagvaria/",
+      href: "https://www.linkedin.com/groups/9068432/",
       icon: Linkedin
     },
   ],

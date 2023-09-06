@@ -11,16 +11,7 @@ export default function Cta({ loggedIn }) {
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
           <span className="block text-white">Ready to subscribe?</span>
           <span className="block text-[color:var(--primary-font-color)]">
-            Start your 14-day free trial today{" "}
-            <a
-             href="https://buy.stripe.com/6oE8xR5hR5zuby8dQQ"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="text-indigo-600 hover:underline"
-             >
-             Get Started
-             </a>
-            .
+            Start your 14-day free trial today.
           </span>
         </h2>
         <section className="mt-8 flex lg:mt-0 lg:flex-shrink-0">

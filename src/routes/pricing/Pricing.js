@@ -1,4 +1,3 @@
-import PricingComparisonTable from "./PricingComparisonTable";
 import PricingFaq from "./PricingFaq";
 import Partners from "../landing/Partners";
 import * as React from 'react';
@@ -17,9 +16,9 @@ export default function Pricing({ loggedIn }) {
           Instagram Growth Plans offer a clear pathway to success, whether you are an aspiring influencer, a startup entrepreneur, or an established brand looking to expand your reach. Choose from our three meticulously designed plans - Starter, Pro, and Diamond - and embark on a transformational journey to elevate your Instagram growth.
         </p>
       </section>
+      <PricingPage />
       <PricingFaq />
       <Partners />
-      <PricingPage />
     </main>
   );
 }
@@ -27,10 +26,10 @@ export default function Pricing({ loggedIn }) {
 function PricingPage() {
   // Use an iframe to embed the Stripe pricing table
   return (
-<>
-  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-  <stripe-pricing-table pricing-table-id="prctbl_1Nn41ZEC5zyE604bxb5g6CM7" publishable-key="pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr">
-  </stripe-pricing-table>
-</>
+    <>
+      <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+      <stripe-pricing-table pricing-table-id="prctbl_1Nn41ZEC5zyE604bxb5g6CM7" publishable-key="pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr">
+      </stripe-pricing-table>
+    </>
   );
 }
