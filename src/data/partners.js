@@ -1,15 +1,15 @@
 const partners = [
     {
         id: 0,
-        name: 'AirBNB',
-        img: "https://img.icons8.com/?size=512&id=103424&format=png",
-        href: 'https://www.airbnb.com/'
+        name: 'stripe',
+        img: "https://icons8.com?size=512&id=IiNwlDiMnWjA&format=png",
+        href: 'https://www.stripe.com/'
     },
     {
         id: 1,
-        name: 'Duolingo',
-        img: 'https://img.icons8.com/?size=512&id=jJS472JMXlsE&format=png',
-        href: 'https://www.duolingo.com/'
+        name: 'instagram',
+        img: 'https://img.icons8.com/?size=512&id=nj0Uj45LGUYh&format=png',
+        href: 'https://www.instagram.com/'
     },
     {
         id: 2,
@@ -19,9 +19,9 @@ const partners = [
     },
     {
         id: 3,
-        name: 'Fiverr',
-        img: 'https://img.icons8.com/?size=512&id=ngc6JsBomclm&format=png',
-        href: 'https://www.fiverr.com/'
+        name: 'discord',
+        img: 'https://img.icons8.com/?size=512&id=D2NqKl85S8Ye&format=png',
+        href: 'https://discord.gg/nfAmqTGNAU'
     },
     {
         id: 4,
