@@ -45,15 +45,15 @@ export const pricingSections = [
         features: [
             {
                 name: "Follower Growth Analysis: Track your follower count's organic growth over time to understand the impact of our strategies.",
-                tiers: { Starter: true, Premium: true, Business: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
                 name: "Engagement Metrics: Get detailed statistics on likes, comments, and interactions to gauge your content's effectiveness..",
-                tiers: { Starter: true, Premium: true, Business: true },
+                tiers: { Starter: true, Pro: true, Diamond: true },
             },
             {
                 name: "Audience Insights: Understand your audience demographics, interests, and behavior to fine-tune your content strategy.",
-                tiers: { Starter: true, Business: true }
+                tiers: { Starter: true, Pro: true }
             },
             {
                 name: "Post Optimization Suggestions: Receive recommendations for optimizing your post timings and content to maximize engagement.",

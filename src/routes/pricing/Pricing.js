@@ -14,7 +14,7 @@ export default function Pricing({ loggedIn }) {
           Instagram Growth Plans
         </h3>
         <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-          Instagram Growth Plans offer a clear pathway to success, whether you are an aspiring influencer, a startup entrepreneur, or an established brand looking to expand your reach. Choose from our three meticulously designed plans - Standard, Premium, and Business - and embark on a transformational journey to elevate your Instagram growth.
+          Instagram Growth Plans offer a clear pathway to success, whether you are an aspiring influencer, a startup entrepreneur, or an established brand looking to expand your reach. Choose from our three meticulously designed plans - Starter, Pro, and Diamond - and embark on a transformational journey to elevate your Instagram growth.
         </p>
       </section>
       <PricingComparisonTable loggedIn={loggedIn} />

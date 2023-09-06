@@ -29,7 +29,7 @@ export default function Comparison({ loggedIn }) {
                 </p>
                 <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
                 <a
-                  href="https://yourlink1234.com"  // Replace with your desired URL
+                  href="https://buy.stripe.com/eVa29t39Jge831C3ce"  // Replace with your desired URL
                   className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                   target="_blank"  // This opens the link in a new tab
                   rel="noopener noreferrer"  // Recommended for security

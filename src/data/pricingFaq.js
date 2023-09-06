@@ -33,7 +33,7 @@ const pricingFaq = [
         id: 6,
         question: "What do I need to get started?",
         answer:
-            "Getting started with Edgy is simple. All you need is an active Instagram account and a clear vision of your growth goals. Once you choose one of our Instagram Growth Plans (Standard, Premium, or Business), our team will schedule a consultation to understand your objectives and tailor our strategies accordingly. From there, you can sit back and watch your Instagram presence flourish with our expert guidance and support.",
+            "Getting started with Edgy is simple. All you need is an active Instagram account and a clear vision of your growth goals. Once you choose one of our Instagram Growth Plans (Starter, Premium, or Business), our team will schedule a consultation to understand your objectives and tailor our strategies accordingly. From there, you can sit back and watch your Instagram presence flourish with our expert guidance and support.",
     },
 ];
 

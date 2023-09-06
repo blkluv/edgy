@@ -26,7 +26,7 @@ export default function PricingComparisonTable({ loggedIn }) {
               </p>
               <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
               <a
-                  href="https://yourlink12345.com"  // Replace with your desired URL
+                  href="https://buy.stripe.com/28o7tN4dN9PKcCceUV"  // Replace with your desired URL
                   className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                   target="_blank"  // This opens the link in a new tab
                   rel="noopener noreferrer"  // Recommended for security
@@ -96,7 +96,7 @@ export default function PricingComparisonTable({ loggedIn }) {
 
             <section className="border-t border-gray-200 px-4 pt-5">
             <a
-                  href="https://your123456.com"  // Replace with your desired URL
+                  href="https://buy.stripe.com/28o7tN4dN9PKcCceUV"  // Replace with your desired URL
                   className="block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                   target="_blank"  // This opens the link in a new tab
                   rel="noopener noreferrer"  // Recommended for security

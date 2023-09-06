@@ -290,9 +290,9 @@ const Profile = ({ retrieveDatabase, user, updateUser, deleteUser, setLoggedIn, 
                                     name="plan"
                                     className=" w-max cursor-pointer relative block px-1 py-1 border border-gray-300 placeholder-gray-500 text-gray-900 rounded focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                                     defaultValue={user.gender}>
-                                    <option value='Standard'>Standard</option>
-                                    <option value='Premium'>Premium</option>
-                                    <option value='Business'>Business</option>
+                                    <option value='Starter'>Starter</option>
+                                    <option value='Pro'>Pro</option>
+                                    <option value='Diamond'>Diamond</option>
                                     <option value='N/A'>N/A</option>
                                 </select>
                                 <button

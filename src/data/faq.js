@@ -27,7 +27,7 @@ const faq = [
     {
         question: "What do I need to get started?",
         answer:
-            "Getting started with Insta is simple. All you need is an active Instagram account and a clear vision of your growth goals. Once you choose one of our Instagram Growth Plans (Standard, Premium, or Business), our team will schedule a consultation to understand your objectives and tailor our strategies accordingly. From there, you can sit back and watch your Instagram presence flourish with our expert guidance and support.",
+            "Getting started with Insta is simple. All you need is an active Instagram account and a clear vision of your growth goals. Once you choose one of our Instagram Growth Plans (Starter, Premium, or Business), our team will schedule a consultation to understand your objectives and tailor our strategies accordingly. From there, you can sit back and watch your Instagram presence flourish with our expert guidance and support.",
     },
     {
         question: "Do you offer any sort of free trial?",
@@ -37,7 +37,7 @@ const faq = [
     {
         question: "What happens after I sign up?",
         answer:
-            "After signing up with Insta, you take the first step towards unlocking your Instagram potential. Once you choose your desired Growth Plan (Standard, Premium, or Business) and complete the registration process, our team will promptly reach out to you. We will schedule a consultation to understand your unique goals, target audience, and preferences. During this consultation, we'll discuss your brand identity and tailor our strategies to align with your objectives.",
+            "After signing up with Insta, you take the first step towards unlocking your Instagram potential. Once you choose your desired Growth Plan (Starter, Premium, or Business) and complete the registration process, our team will promptly reach out to you. We will schedule a consultation to understand your unique goals, target audience, and preferences. During this consultation, we'll discuss your brand identity and tailor our strategies to align with your objectives.",
     },
 ];
 

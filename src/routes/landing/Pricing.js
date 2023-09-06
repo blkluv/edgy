@@ -15,7 +15,7 @@ const Pricing = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ plan: 'standard' }), // Replace with your plan
+      body: JSON.stringify({ plan: 'starter' }), // Replace with your plan
     });
     const session = await response.json();
 
