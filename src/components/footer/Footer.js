@@ -6,7 +6,7 @@ import Portfolio from '../../assets/socials/portfolio.png'
 const navigation = {
   solutions: [
     { name: "", href: "" },
-    { name: "+404-889-5545", href: "tel:+404-889-5545" },
+    { name: "+1 404-889-5545", href: "tel:+404-889-5545" },
     { name: "insta@arvrtise.com", href: "mailto:insta@arvrtise.com" },
   ],
   support: [
