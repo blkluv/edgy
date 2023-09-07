@@ -1,9 +1,9 @@
 const partners = [
     {
         id: 0,
-        name: 'stripe',
-        img: "https://icons8.com?size=512&id=IiNwlDiMnWjA&format=png",
-        href: 'https://www.stripe.com/'
+        name: 'nft',
+        img: "https://icons8.com?size=512&id=Ij8c38JGq7LR&format=png",
+        href: 'https://www.luvnft.com/'
     },
     {
         id: 1,

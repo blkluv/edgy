@@ -13,9 +13,9 @@ const features = [
         icon: PlanIcon,
     },
     {
-        name: 'Targeted audience',
+        name: 'NFT',
         description:
-            'The audience which craves your content day and night. We target people who love your content',
+            'We create an NFT advertising campaign that allows your followers to make purchases with a debit card through a branded URL in your instagram bio',
         icon: TargetIcon,
     },
     {
