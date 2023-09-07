@@ -15,20 +15,14 @@ const Pricing = () => {
             Various plans depending on your needs, capabilities, dreams, and business goals
           </p>
         </section>
-      </section>
-
-      {/* Stripe pricing table iframe */}
+         {/* Stripe pricing table iframe */}
       <section className="mt-16 gray-900 pb-12 lg:mt-20 lg:pb-20">
-        <iframe
-          src="https://js.stripe.com/v3/pricing-table.html?pricingTableId=prctbl_1Nn41ZEC5zyE604bxb5g6CM7&publishableKey=pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr"
-          title="Stripe Pricing Table"
-          width="100%"
-          height="1000" // Adjust the height as needed
-          frameBorder="0"
-          scrolling="no"
-        ></iframe>
+      <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+      <stripe-pricing-table pricing-table-id="prctbl_1Nn41ZEC5zyE604bxb5g6CM7"
+      publishable-key="pk_live_51N5TmzEC5zyE604bHEDASvvy2x73uOWACcLN2wkuxDlWWAUmxInsVIYxEEau3OZrUPSoXeo0NwUkXUcweISYYm7f00KuGsa5sr">
+      </stripe-pricing-table>
       </section>
-
+      </section>
       <section className="mt-10">
         <section className="rounded-lg shadow-md">
         </section>
